@@ -1,11 +1,11 @@
 function Post({ post }) {
   return (
-    <>
-      <p style={{ color: "#FF0000" }}>
+    <div className="mb-12">
+      <p className="font-bold text-3xl m-2">
         #{post.id} {post.title}
       </p>
-      <p>{post.body}</p>
-    </>
+      <p className="ml-2">{post.body}</p>
+    </div>
   );
 }
 
